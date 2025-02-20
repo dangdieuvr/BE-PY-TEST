@@ -1,0 +1,20 @@
+# Ignore Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment (nếu dùng virtualenv hoặc conda)
+env/
+venv/
+*.env
+
+# Ignore database SQLite (nếu có)
+db.sqlite3
+
+# Ignore Django static files
+/static/
+/media/
+
+
+
